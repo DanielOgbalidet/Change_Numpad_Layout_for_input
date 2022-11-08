@@ -45,7 +45,7 @@ function change() {
 }
 
 function timeSecond() {
-    let top = $("#top").val();
+    let top = $("#top2").val();
     let last = top.charAt(top.length - 1);
     let number = top.substring(0, top.length - 1);
 
@@ -59,6 +59,6 @@ function timeSecond() {
         $("#total2").html(timeTotal2);
     }
 
-    $("#top").val(number + last);
+    $("#top2").val(number + last);
 }
 
